@@ -1,14 +1,19 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<LayoutVue>
+			<LigthViewVue></LigthViewVue>
+		</LayoutVue>
 	</view>
 </template>
 
 <script>
+	import LayoutVue from '../../components/Layout/Layout.vue'
+	import LigthViewVue from '../../components/LigthView/LigthView.vue';
 	export default {
+		components:{
+			LayoutVue,
+			LigthViewVue
+		},
 		data() {
 			return {
 				title: 'Hello'
@@ -25,13 +30,11 @@
 
 <style>
 	.content {
+		width: 100%;
+		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-	}
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+		background: black;
 	}
 </style>

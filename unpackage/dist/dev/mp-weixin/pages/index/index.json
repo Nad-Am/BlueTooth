@@ -1,4 +1,8 @@
 {
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {}
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "layout-vue": "../../components/Layout/Layout",
+    "ligth-view-vue": "../../components/LigthView/LigthView"
+  }
 }

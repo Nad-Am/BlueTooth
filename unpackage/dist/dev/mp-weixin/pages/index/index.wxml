@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="{{a}}"></image><view class="text-area"><text class="title">{{b}}</text></view></view>
+<view class="content"><layout-vue u-s="{{['d']}}" u-i="bc7ffd74-0" bind:__l="__l"><ligth-view-vue u-i="bc7ffd74-1,bc7ffd74-0" bind:__l="__l"></ligth-view-vue></layout-vue></view>
