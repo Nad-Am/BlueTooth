@@ -1,18 +1,21 @@
 <template>
 	<view class="content">
 		<LayoutVue>
-			<LigthViewVue></LigthViewVue>
+			<!-- <LigthViewVue></LigthViewVue> -->
+			 <GearShiftVue></GearShiftVue>
 		</LayoutVue>
 	</view>
 </template>
 
 <script>
 	import LayoutVue from '../../components/Layout/Layout.vue'
-	import LigthViewVue from '../../components/LigthView/LigthView.vue';
+import LigthViewVue from '../../components/LigthView/LigthView.vue';
+	import GearShiftVue from '../../components/GearShift/GearShift.vue';
 	export default {
 		components:{
 			LayoutVue,
-			LigthViewVue
+			LigthViewVue,
+			GearShiftVue
 		},
 		data() {
 			return {

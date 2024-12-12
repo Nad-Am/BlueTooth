@@ -1,0 +1,35 @@
+
+.contain.data-v-13071995{
+	height: 100%;
+	width: 100%;
+}
+.context.data-v-13071995{
+	width: 60%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.image.data-v-13071995{
+	width: 80%;
+	height: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img.data-v-13071995{
+	width: 100%;
+    height: 100%;
+object-fit: contain;
+}
+button.data-v-13071995{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid aqua;
+	background: none;
+	color:aqua;
+	margin-bottom: 2.5%;
+}

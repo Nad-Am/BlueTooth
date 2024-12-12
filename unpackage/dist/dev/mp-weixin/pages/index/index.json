@@ -3,6 +3,6 @@
   "navigationStyle": "custom",
   "usingComponents": {
     "layout-vue": "../../components/Layout/Layout",
-    "ligth-view-vue": "../../components/LigthView/LigthView"
+    "gear-shift-vue": "../../components/GearShift/GearShift"
   }
 }

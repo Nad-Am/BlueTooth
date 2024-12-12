@@ -1,1 +1,1 @@
-<view style="color:red"> Headlights </view>
+<view class="contain data-v-13071995"><view class="context data-v-13071995"><view class="image data-v-13071995"><image class="data-v-13071995" src="{{a}}"/></view><button class="data-v-13071995">{{b}}</button></view></view>

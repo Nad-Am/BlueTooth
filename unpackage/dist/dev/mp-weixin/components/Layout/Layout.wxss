@@ -1,29 +1,31 @@
 
 	/* 样式可按需补充 */
-.LayoutMain{
+.LayoutMain.data-v-8973774e{
 		width: 100%;
 		height: 70%;
 		display: flex;
 		justify-content: space-between;
 }
-.LayoutLeftNave{
+.LayoutLeftNave.data-v-8973774e{
 		width: 100px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 }
-.LayoutMainSolt{
+.LayoutMainSolt.data-v-8973774e{
 		flex: 1;
 		margin: 10px;
-		border: 1px solid wheat;
+		height: 100%;
+		/* border: 1px solid wheat; */
+		background-color: #1d1d1d;
 }
-.LayoutRightNave{
+.LayoutRightNave.data-v-8973774e{
 		width: 100px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 }
-.naveItem{
+.naveItem.data-v-8973774e{
 		width: 90px; 
 		height: 60px;
 		font-size: 20px;
@@ -33,11 +35,11 @@
 		color: aliceblue;
 		background-size: cover;
 }
-.LayoutTaile{
+.LayoutTaile.data-v-8973774e{
 		height: 17%;
 		position: relative;
 }
-.tail_one{
+.tail_one.data-v-8973774e{
 		position: absolute;
 		bottom: 0%;
 		left: 0%;
@@ -46,7 +48,7 @@
 		width: 110rpx;
 		height: 100rpx;
 }
-.taile_two{
+.taile_two.data-v-8973774e{
 		position: absolute;
 		bottom: 0%;
 		right: 0;
