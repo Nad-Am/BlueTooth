@@ -81,7 +81,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	/* 样式可按需补充 */
 	.LayoutMain{
 		width: 100%;
@@ -98,7 +98,9 @@
 	.LayoutMainSolt{
 		flex: 1;
 		margin: 10px;
-		border: 1px solid wheat;
+		height: 100%;
+		/* border: 1px solid wheat; */
+		background-color: #1d1d1d;
 	}
 	.LayoutRightNave{
 		width: 100px;

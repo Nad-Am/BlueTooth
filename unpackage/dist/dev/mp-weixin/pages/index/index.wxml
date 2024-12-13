@@ -1,1 +1,1 @@
-<view class="content"><layout-vue u-s="{{['d']}}" u-i="bc7ffd74-0" bind:__l="__l"><ligth-view-vue u-i="bc7ffd74-1,bc7ffd74-0" bind:__l="__l"></ligth-view-vue></layout-vue></view>
+<view class="content"><layout-vue u-s="{{['d']}}" u-i="5fbe97cc-0" bind:__l="__l"><gear-shift-vue u-i="5fbe97cc-1,5fbe97cc-0" bind:__l="__l"></gear-shift-vue></layout-vue></view>
